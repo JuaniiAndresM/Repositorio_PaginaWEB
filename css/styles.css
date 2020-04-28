@@ -1,0 +1,59 @@
+body {
+	background-color: #25364d;
+}
+p {
+    color: white;
+}
+#P-negro{
+    color:black;
+}
+h1 {
+    color: white;
+}
+.Header{
+    background-color: #e9ecef;
+    text-align: center;
+}
+.Header img{
+    float: left;
+}
+.Header h1{
+    color: black;
+    position: relative;
+    padding-top: 3%;
+    font-size: 2vw;
+}
+.Header p{
+    color: black;
+    position: relative;
+    padding-bottom: 2%;
+    font-size: 1vw;
+}
+h4 {
+    color: black;
+    font-size: 1vw;
+}
+dl {
+    color: white;
+}
+li{
+    color:white;
+}
+#Footer{
+    background-color: #e9ecef;
+    text-align: center;
+    padding-bottom: 30px;
+}
+#Footer h1{
+    color: black;
+    font-size: 2vw;
+    padding-top: 30px;
+}
+#Footer h4{
+    color: black;
+    font-size: 1vw;
+}
+#Footer a{
+    color: white;
+    font-size: 1vw;
+}

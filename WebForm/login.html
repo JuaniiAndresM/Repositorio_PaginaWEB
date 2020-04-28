@@ -7,60 +7,25 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href=../styles.css>
+  <link rel="stylesheet" href=../css/styles.css>
+  <script src="../js/function.js"></script>
   <style>
     body{
       background-color: white;
     }
-    h1{
-      color:black;
-    }
-    p{
-      color:black;
-    }
   </style>
 </head>
 <body>
-      <div class="jumbotron text-center" style="margin-bottom:0">
+
+      <div class="Header">
         <div class="clearfix">
-          <img src="../img/LogoNEGRO.png" class="float-left" width="180" height="180"><br><br> 
+        <img src="../img/LogoNEGRO.png" width="8%" style="padding-top: 1%; margin-left: 1%">
         <h1>Iniciar Sesión</h1>
         <p>Iniciar sesión en nuestra pagina.</p>
       </div>
       </div>
-
-      <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-        <a class="navbar-brand" href="#">MTJS</a>
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href=../index.html>Inicio</a>
-          </li>
-          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-            Información
-          </a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href=../inventores/Thales.html>Thales de Mileto</a>
-            <a class="dropdown-item" href=../inventores/daVinci.html>Leonardo Da Vinci</a>
-            <a class="dropdown-item" href=../inventores/NikolaTesla.html>Nikola Tesla</a>
-            <a class="dropdown-item" href=../inventores/ThomasEdinson.html>Thomas Edinson</a>
-            <a class="dropdown-item" href=../inventores/Arquimedes.html>Arquímedes</a>
-            <a class="dropdown-item" href=../inventores/benjaminFranklin.html>Benjamin Franklin</a>
-          </div>
-          <a class="nav-link" href=contacto.html>Contacto</a>
-        </ul>
-        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="login.html">Iniciar Sesión</a>
-            </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="register.html">Registrarse</a>
-              </li>
-          </ul>
-      </div>
-      </nav>
+      <div id="header"></div>
       <br>
-    </nav>
 
 <div class="container">
     <form action="../index.html">
@@ -73,15 +38,12 @@
         <input type="password" class="form-control" id="pwd" placeholder="Ingrese Contraseña" name="pswd">
       </div>
       <div class="container signin">
-        <p>¿No tienes una cuenta? <a href=register.html>Registrarse</a>.</p>
+      <p id=P-negro>¿No tienes una cuenta? <a href=register.html>Registrarse</a>.</p>
       </div>
       <button type="submit" class="btn btn-primary">Logearse</button>
     </form>
   </div>
-  <div class="jumbotron text-center" style="margin-bottom:0">
-    <h1>MTJS recomienda quedarse en casa</h1>
-    <p style="color:black">✓ Este sitio esta protegido de Coronavirus gracias a Limol.<br>
-      #QuedateEnCasa</p>
-    <a href="https://www.instagram.com/limoluruguay/" style="color:black">¡Redes sociales de Limol!</a>
-  </div>
+  <div style="background-color: #343a40; padding: 2%;"></div>
+
+  <div id="footer"></div>  
   </body>
