@@ -78,3 +78,7 @@ li{
 #body2{
     background-color: white;
 }
+textarea {
+    width: 300px;
+    height:40%;
+  }
