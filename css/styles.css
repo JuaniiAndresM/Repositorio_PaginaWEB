@@ -4,6 +4,9 @@ body {
 p {
     color: white;
 }
+.navbar-default{
+    background-color: #e9ecef;
+}
 #P-negro{
     color:black;
 }
@@ -26,12 +29,16 @@ h1 {
 .Header p{
     color: black;
     position: relative;
-    padding-bottom: 2%;
+    padding-bottom: 4%;
     font-size: 1vw;
 }
 h4 {
+    color: white;
+}
+#CardH{
     color: black;
     font-size: 1vw;
+    text-align: center;
 }
 dl {
     color: white;
@@ -46,7 +53,7 @@ li{
 }
 #Footer h1{
     color: black;
-    font-size: 2vw;
+    font-size: 3vw;
     padding-top: 30px;
 }
 #Footer h4{
@@ -55,5 +62,16 @@ li{
 }
 #Footer a{
     color: white;
+}
+#Grupo{
+    width: 60%;
+    margin: 0 auto;
+}
+#Grupo a{
+    color: black;
     font-size: 1vw;
+}
+.navbar img {
+    display:block;
+    margin: 0px auto;
 }

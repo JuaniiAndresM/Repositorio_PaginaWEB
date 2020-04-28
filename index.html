@@ -13,102 +13,100 @@
   <link rel="stylesheet" href=css/styles.css>
 </head>
 <body>
-  
-      <div class="Header">
-        <div class="clearfix">
-        <img src="img/LogoNEGRO.png" width="8%" style="padding-top: 1%; margin-left: 1%">
-        <h1>LOS INVENTORES MAS IMPORTANTES DE LA HISTORIA</h1>
-        <p>En esta pagina se pueden ver los 6 inventores mas reconocidos y importantes de nuestra historia.</p>
-      </div>
-      </div>
 
-      <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-        <ul class="navbar-nav">
-          <a class="navbar-brand" href="#">MTJS</a>
-          <li class="nav-item active">
-            <a class="nav-link" href=index.html>Inicio</a>
-          </li>
-          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-            Información
-          </a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href=inventores/Thales.html>Thales de Mileto</a>
-            <a class="dropdown-item" href=inventores/daVinci.html>Leonardo Da Vinci</a>
-            <a class="dropdown-item" href=inventores/NikolaTesla.html>Nikola Tesla</a>
-            <a class="dropdown-item" href=inventores/ThomasEdinson.html>Thomas Edinson</a>
-            <a class="dropdown-item" href=inventores/Arquimedes.html>Arquímedes</a>
-            <a class="dropdown-item" href=inventores/benjaminFranklin.html>Benjamin Franklin</a>
-          </div>
-          <a class="nav-link" href=WebForm/contacto.html>Contacto</a>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="collapse navbar-collapse w-100 flex-md-column" id="navbarCollapse">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <ul class="nav navbar-nav navbar-logo mx-auto">
+            <img src="../img/BannerPNG.png" style="width: 35%">
         </ul>
-        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="WebForm/login.html">Iniciar Sesión</a>
-          </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="WebForm/register.html">Registrarse</a>
-              </li>
-          </ul>
-      </div>
-      </nav>
-    </nav>
-        <div id=Algo class="card-group">
-            <div class="card bg-primary">
-                <div class="card" style="width:95%">
-                    <img class="card-img-top" src="img/tales.jpg" alt="Card image" style="width:100%">
-                    <div class="card-body">
-                        <h4 class="card-title">Thales de Mileto</h4>
-                        <a href=inventores/Thales.html class="btn btn-primary">Más Información</a>
-                    </div>
-                </div>
-          </div>
-        <div class="card bg-primary">
-            <div class="card" style="width:95%">
-                <img class="card-img-top" src="img/daVinciFrame.jpg" alt="Card image" style="width:100%">
-                <div class="card-body">
-                        <h4 class="card-title">Leonardo Da Vinci</h4>
-                        <a href=inventores/daVinci.html class="btn btn-primary">Más Información</a>
-                    </div>
-                </div>
+        <ul class="navbar-nav">
+        <li>
+        <a class="nav-link" href=index.html>Inicio</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Información
+            </a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href=inventores/Thales.html>Thales de Mileto</a>
+                <a class="dropdown-item" href=inventores/daVinci.html>Leonardo Da Vinci</a>
+                <a class="dropdown-item" href=inventores/NikolaTesla.html>Nikola Tesla</a>
+                <a class="dropdown-item" href=inventores/ThomasEdinson.html>Thomas Edinson</a>
+                <a class="dropdown-item" href=inventores/Arquimedes.html>Arquímedes</a>
+                <a class="dropdown-item" href=inventores/benjaminFranklin.html>Benjamin Franklin</a>
             </div>
-            <div class="card bg-primary">
-                <div class="card" style="width:95%">
-                    <img class="card-img-top" src="img/teslaframe.jpeg" alt="Card image" style="width:100%">
-                    <div class="card-body">
-                            <h4 class="card-title">Nikola Tesla</h4>
-                            <a href=inventores/NikolaTesla.html class="btn btn-primary">Más Información</a>
-                        </div>
+        </li>
+            <a class="nav-link" href=WebForm/contacto.html>Contacto</a>
+            <a class="nav-link" href="WebForm/login.html">Iniciar Sesión</a>
+            <a class="nav-link" href="WebForm/register.html">Registrarse</a>
+                        </ul>
+                    </ul>
                     </div>
+            </div>
+        </form>
+    </div>
+</nav>
+
+<div class="Header">
+  <h1>LOS INVENTORES MAS IMPORTANTES DE LA HISTORIA</h1>
+  <p>En esta pagina se pueden ver los 6 inventores mas reconocidos y importantes de nuestra historia.</p>
+</div>
+
+    <div class="row" id="Grupo">
+            <div class="card" style="width: 30%;">
+              <img class="card-img-top" src="img/tales.jpg">
+              <div class="card-body">
+                <h4 id=CardH class="card-title">Thales de Mileto</h4>
+                <a href=inventores/Thales.html class="btn btn-outline-primary btn-block">Más Información</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 30%;">
+              <img class="card-img-top" src="img/daVinciFrame.jpg">
+              <div class="card-body">
+                <h4 id=CardH class="card-title">Leonardo Da Vinci</h4>
+                <a href=inventores/daVinci.html class="btn btn-outline-primary btn-block">Más Información</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 30%;">
+              <img class="card-img-top" src="img/teslaframe.jpeg">
+              <div class="card-body">
+                <h4 id=CardH class="card-title">Nikola Tesla</h4>
+                <a href=inventores/NikolaTesla.html class="btn btn-outline-primary btn-block">Más Información</a>
+              </div>
+            </div>
+            </div>
+    
+    <div class="row" id="Grupo">
+
+              <div class="card" style="width: 30%;">
+                <img class="card-img-top" src="img/thomasframe.jpg">
+                <div class="card-body">
+                  <h4 id=CardH class="card-title">Thomas Edinson</h4>
+                  <a href=inventores/ThomasEdinson.html class="btn btn-outline-primary btn-block">Más Información</a>
                 </div>
-                <div class="card bg-primary">
-                    <div class="card" style="width:95%">
-                        <img class="card-img-top" src="img/thomasframe.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                                <h4 class="card-title">Thomas Edinson</h4>
-                                <a href=inventores/ThomasEdinson.html class="btn btn-primary">Más Información</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card bg-primary">
-                      <div class="card" style="width:95%">
-                          <img class="card-img-top" src="img/arquimedesframe.jpg" alt="Card image" style="width:100%">
-                          <div class="card-body">
-                                  <h4 class="card-title">Arquímedes</h4>
-                                  <a href=inventores/Arquimedes.html class="btn btn-primary">Más Información</a>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="card bg-primary">
-                        <div class="card" style="width:95%">
-                            <img class="card-img-top" src="img/benjaminframe.jpg" alt="Card image" style="width:100%">
-                            <div class="card-body">
-                                    <h4 class="card-title">Benjamin Franklin</h4>
-                                    <a href=inventores/benjaminFranklin.html class="btn btn-primary">Más Información</a>
-                                </div>
-                            </div>
-                        </div>
-        </div>
+              </div>
+  
+              <div class="card" style="width: 30%;">
+                <img class="card-img-top" src="img/arquimedesframe.jpg">
+                <div class="card-body">
+                  <h4 id=CardH class="card-title">Arquímedes</h4>
+                  <a href=inventores/Arquimedes.html class="btn btn-outline-primary btn-block">Más Información</a>
+                </div>
+              </div>
+  
+              <div class="card" style="width: 30%;">
+                <img class="card-img-top" src="img/benjaminframe.jpg">
+                <div class="card-body">
+                  <h4 id=CardH class="card-title">Benjamin Franklin</h4>
+                  <a href=inventores/benjaminFranklin.html class="btn btn-outline-primary btn-block">Más Información</a>
+                </div>
+              </div>
+            </div>
         <div style="background-color: #343a40; padding: 2%;"></div>
 
         <div id="Footer">
