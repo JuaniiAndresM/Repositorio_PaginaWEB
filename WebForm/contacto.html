@@ -11,7 +11,7 @@
   <link rel="stylesheet" href=../css/styles.css>
   <script src="../js/function.js"></script>
 </head>
-<body>
+<body id=body2>
   
   <div id="header"></div>
   
@@ -19,8 +19,9 @@
         <div class="clearfix">
         <h1>Contacto</h1>
         <p>Contactá con nuestro equipo de desarrolladores web.</p>
+        <br>
       </div>
-      </div>
+      <div style="background-color: #343a40; padding: 2%;"></div>
 
     <br>
     <div class="container">
@@ -56,6 +57,25 @@
           </tbody>
         </table>
       </div>
+
+      <h1>Dejanos tu Opinión:</h1>
+      <div class="container">
+        <form action="../index.html">
+          <div class="form-group">
+            <label for="uname">Usuario:</label>
+            <input type="text" class="form-control" id="uname" placeholder="Ingrese Usuario" name="uname">
+          </div>
+          <div class="form-group">
+            <label for="email">Correo Electronico:</label>
+            <input type="email" class="form-control" placeholder="Ingrese Correo Electronico" id="email">
+          </div>
+        </form>
+      </div>
+      <div class="form-group" style="width=500px">
+        <label for="comment">Comentario:</label>
+        <textarea class="form-control col-xs-12" rows="5" id="comment"></textarea>
+      </div>
+
       <div id="footer"></div> 
   </body>
   </html>
