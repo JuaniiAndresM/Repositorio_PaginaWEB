@@ -13,7 +13,10 @@ p {
     background-color: #e9ecef;
 }
 dt{
-    color:black;
+    color:white;
+}
+li{
+    color:white;
 }
 .navbar img {
     display:block;
