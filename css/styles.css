@@ -12,6 +12,13 @@ p {
 .navbar-default{
     background-color: #e9ecef;
 }
+.navbar img {
+    display:block;
+    margin: 0px auto;
+}
+.navbar a {
+    color:white;
+}
 h1 {
     color: black;
     text-align: center;
@@ -42,6 +49,10 @@ h1 {
     position: relative;
     text-align: center;
     vertical-align: middle;
+}
+.texto h1{
+    font-size: 500%;
+    font-weight: 700;
 }
 .texto a{
     color:white;
@@ -79,7 +90,8 @@ h4 {
     color: white;
 }
 #Grupo{
-    background-color: white;
+    background: rgba(52, 58, 64, 0.7);
+    margin: 2%;
 }
 #Grupo1{
     width: 60%;
@@ -89,9 +101,11 @@ h4 {
     color: black;
     font-size: 1vw;
 }
-.navbar img {
-    display:block;
-    margin: 0px auto;
+#Grupo p{
+    color: white;
+}
+#Grupo h1{
+    color: white;
 }
 #body2{
     background-color: white;
