@@ -1,5 +1,4 @@
 body {
-    background-color: #25364d;
     background: url(../img/fondo1.jpg) no-repeat center center fixed;
     position: relative;
     background-size: cover;
@@ -7,33 +6,45 @@ body {
 p {
     color: white;
 }
+#textoNegro{
+    color:white;
+}
 .navbar-default{
     background-color: #e9ecef;
 }
-#P-negro{
-    color:black;
-}
 h1 {
-    color: white;
-}
-.Header{
-    background-color: #e9ecef;
+    color: black;
     text-align: center;
 }
-.Header img{
-    float: left;
+#Header{
+    background-color: #e9ecef;
+    text-align: center;
+    margin: 0px auto;
+    vertical-align: middle;
 }
-.Header h1{
+#Header p{
     color: black;
-    position: relative;
-    padding-top: 3%;
-    font-size: 2vw;
+    text-align: center;
+    margin: 0px auto;
+    vertical-align: middle;
 }
-.Header p{
-    color: black;
+#HeaderIndex{
+    background: url(../img/fondo1.jpg) no-repeat center center fixed;
+    display: table;
     position: relative;
-    padding-bottom: 1%;
-    font-size: 1vw;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.texto{
+    display: table-cell;
+    color: white;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+.texto a{
+    color:white;
 }
 h4 {
     color: white;
@@ -43,16 +54,17 @@ h4 {
     font-size: 1vw;
     text-align: center;
 }
-dl {
-    color: white;
-}
-li{
-    color:white;
-}
 #Footer{
     background-color: #e9ecef;
     text-align: center;
     padding-bottom: 30px;
+}
+#ColorBlanco{
+    color:white;
+}
+#ColorNegro{
+    color:black;
+    text-align: center;
 }
 #Footer h1{
     color: black;
@@ -67,8 +79,11 @@ li{
     color: white;
 }
 #Grupo{
-    margin: 0px auto;
+    background-color: white;
+}
+#Grupo1{
     width: 60%;
+    margin: 0px auto;
 }
 #Grupo a{
     color: black;
@@ -85,7 +100,7 @@ textarea {
     width: 300px;
     height:40%;
   }
-  .card {
+.card {
     margin: 0 auto;
     margin-bottom: 10px;
 }
