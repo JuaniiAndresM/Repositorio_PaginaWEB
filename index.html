@@ -8,6 +8,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
   <script src="js/function.js"></script>
   <link rel="stylesheet" href=css/styles.css>
@@ -56,7 +57,7 @@
     <h1 id=ColorBlanco>M.T.J.S</h1>
     <h3>Los 6 inventores más importantes de la historia.</h3>
     <p>En MJTS te brindamos la información más confiable de toda internet.</p>
-    <a href="#" class="btn btn-dark btn-lg">Empezar</a>
+    <a href="#Grupo" class="btn btn-dark btn-lg">Empezar</a>
   </div>
 </div>
 <div style="background-color: #343a40; padding: 2%;"></div>
@@ -137,6 +138,9 @@
           <p style="color:black">✓ Este sitio esta protegido de Coronavirus gracias a Limol.<br>
           #QuedateEnCasa</p>
           <a href="https://www.instagram.com/limoluruguay/" style="color:black">¡Redes sociales de Limol!</a><br>
-        </div>  
+        </div>
+        <script>
+          var scroll = new SmoothScroll('a[href*="#"]');
+        </script>
 </body>
 </html>
