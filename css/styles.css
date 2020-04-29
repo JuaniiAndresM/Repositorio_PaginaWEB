@@ -12,6 +12,9 @@ p {
 .navbar-default{
     background-color: #e9ecef;
 }
+dt{
+    color:black;
+}
 .navbar img {
     display:block;
     margin: 0px auto;
@@ -94,12 +97,11 @@ h4 {
     margin: 2%;
 }
 #Grupo1{
-    width: 60%;
+    width: 80%;
     margin: 0px auto;
 }
 #Grupo a{
     color: black;
-    font-size: 1vw;
 }
 #Grupo p{
     color: white;
@@ -120,4 +122,9 @@ textarea {
 }
 label{
     color:white;
+}
+@media (max-width: 768px){
+    .texto h1{
+        font-size: 300%;
+    }
 }
