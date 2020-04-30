@@ -86,12 +86,13 @@ li{
 #Footer{
     background-color: #e9ecef;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom:1%;
+    padding-top:1%;
 }
 #Footer h1{
     color: black;
-    font-size: 3vw;
-    padding-top: 30px;
+    font-size: 200%;
+    font-weight: 700;;
 }
 #Footer h4{
     color: black;
@@ -136,5 +137,8 @@ label{
 @media (max-width: 768px){
     .texto h1{
         font-size: 300%;
+    }
+    #Footer h1{
+        font-size: 150%;
     }
 }
