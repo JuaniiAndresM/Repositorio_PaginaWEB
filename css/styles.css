@@ -3,20 +3,13 @@ body {
     position: relative;
     background-size: cover;
 }
-p {
-    color: white;
-}
+
 #textoNegro{
     color:white;
 }
+
 .navbar-default{
     background-color: #e9ecef;
-}
-dt{
-    color:white;
-}
-li{
-    color:white;
 }
 .navbar img {
     display:block;
@@ -25,10 +18,24 @@ li{
 .navbar a {
     color:white;
 }
+
+p {
+    color: white;
+}
 h1 {
     color: black;
     text-align: center;
 }
+h4 {
+    color: white;
+}
+dt{
+    color:white;
+}
+li{
+    color:white;
+}
+
 #Header{
     background-color: #e9ecef;
     text-align: center;
@@ -49,6 +56,7 @@ h1 {
     width: 100%;
     background-size: cover;
 }
+
 .texto{
     display: table-cell;
     color: black;
@@ -66,25 +74,22 @@ h1 {
 .texto p{
     color:black;
 }
-h4 {
-    color: white;
-}
+
 #CardH{
     color: black;
     font-size: 1vw;
     text-align: center;
 }
+
+#ColorBlanco{
+    color:white;
+    text-align: center;
+}
+
 #Footer{
     background-color: #e9ecef;
     text-align: center;
     padding-bottom: 30px;
-}
-#ColorBlanco{
-    color:white;
-}
-#ColorNegro{
-    color:black;
-    text-align: center;
 }
 #Footer h1{
     color: black;
@@ -98,6 +103,7 @@ h4 {
 #Footer a{
     color: white;
 }
+
 #Grupo{
     background: rgba(52, 58, 64, 0.7);
     margin: 2%;
@@ -116,17 +122,21 @@ h4 {
 #Grupo h1{
     color: white;
 }
+
 textarea {
     width: 300px;
     height:40%;
-  }
+}
+
 .card {
     margin: 0 auto;
     margin-bottom: 10px;
 }
+
 label{
     color:white;
 }
+
 @media (max-width: 768px){
     .texto h1{
         font-size: 300%;
